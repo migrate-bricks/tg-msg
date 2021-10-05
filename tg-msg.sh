@@ -8,5 +8,5 @@
   echo "msg @JD_ShareCode_Bot /sgmh T0205KkcJkhCpBGtaE6j6q5MCjVQmoaT5kRrbA"
   echo "msg @JD_ShareCode_Bot /health T0205KkcJkhCpBGtaE6j6q5MCjVfnoaW5kRrbA"
   echo "completed.."
-  ) | docker exec -i telegram-cli telegram-cli -W -e
-# ) | docker exec -i telegram-cli telegram-cli -N
+  ) | docker exec -i telegram-cli telegram-cli -W -e 
+# ) | docker exec -i telegram-cli telegram-cli -N 
