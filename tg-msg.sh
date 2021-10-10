@@ -1,6 +1,7 @@
 #!/bin/bash
 (
-  sleep 30
+  echo "resolve_username JD_ShareCode_Bot"
+  sleep 5
   #132***2789
   echo "msg @JD_ShareCode_Bot /farm e0e4bc319b924c4ea64cce1b2118dad7"
   echo "msg @JD_ShareCode_Bot /pet MTE5MzEwNTEzODAwMDAwMDA1Mzc2MTI4NQ=="
@@ -16,4 +17,5 @@
   echo "msg @JD_ShareCode_Bot /ddfactory T020a3LolJe5Iv5j9bpSQW-9CjVWnYaS5kRrbA"
   echo "msg @JD_ShareCode_Bot /sgmh T020a3LolJe5Iv5j9bpSQW-9CjVQmoaT5kRrbA"
   echo "msg @JD_ShareCode_Bot /health T020a3LolJe5Iv5j9bpSQW-9CjVfnoaW5kRrbA"
+  echo "safe_quit"
 ) | docker exec -i telegram-cli telegram-cli -N 
