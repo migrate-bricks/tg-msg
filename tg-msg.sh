@@ -3,15 +3,15 @@
     echo "resolve_username JD_ShareCode_Bot"
     sleep 5
     #132***2789 jd_5006e4d4017b2
-	echo "msg @JD_ShareCode_Bot /farm 12fc0bf246ac4a28b51d89de2fa288ec"
-	echo "msg @JD_ShareCode_Bot /pet MTEyNjkzMjAwMDAwMDAwMDUzMzc2ODA3"
-	echo "msg @JD_ShareCode_Bot /bean mlrdw3aw26j3x3y3tsw6bzph53cddhzxm6apgxy"
-	echo "msg @JD_ShareCode_Bot /ddfactory T0225KkcRR4Z8wHTdB70lfBYdgCjVWnYaS5kRrbA"
-	echo "msg @JD_ShareCode_Bot /jxfactory sh4SPz52VpAT5iJSlQ0mcg=="
-	echo "msg @JD_ShareCode_Bot /sgmh T0225KkcRR4Z8wHTdB70lfBYdgCjVQmoaT5kRrbA"
-	echo "msg @JD_ShareCode_Bot /health T0225KkcRR4Z8wHTdB70lfBYdgCjVfnoaW5kRrbA"
+    echo "msg @JD_ShareCode_Bot /farm 12fc0bf246ac4a28b51d89de2fa288ec"
+    echo "msg @JD_ShareCode_Bot /pet MTEyNjkzMjAwMDAwMDAwMDUzMzc2ODA3"
+    echo "msg @JD_ShareCode_Bot /bean mlrdw3aw26j3x3y3tsw6bzph53cddhzxm6apgxy"
+    echo "msg @JD_ShareCode_Bot /ddfactory T0225KkcRR4Z8wHTdB70lfBYdgCjVWnYaS5kRrbA"
+    echo "msg @JD_ShareCode_Bot /jxfactory sh4SPz52VpAT5iJSlQ0mcg=="
+    echo "msg @JD_ShareCode_Bot /sgmh T0225KkcRR4Z8wHTdB70lfBYdgCjVQmoaT5kRrbA"
+    echo "msg @JD_ShareCode_Bot /health T0225KkcRR4Z8wHTdB70lfBYdgCjVfnoaW5kRrbA"
 
-	#135***4960 jd_VfkauJxdgNiv
+    #135***4960 jd_VfkauJxdgNiv
     echo "msg @JD_ShareCode_Bot /farm e0e4bc319b924c4ea64cce1b2118dad7"
     echo "msg @JD_ShareCode_Bot /pet MTE5MzEwNTEzODAwMDAwMDA1Mzc2MTI4NQ=="
     echo "msg @JD_ShareCode_Bot /bean aogye6x4cnc3oj4hf75thvmdjxiaky77vxjys4i"
@@ -34,5 +34,12 @@
     echo "msg @JD_ShareCode_Bot /ddfactory T0205KkcO1dlkQ2pcUCXzp1RCjVWnYaS5kRrbA"
     echo "msg @JD_ShareCode_Bot /sgmh T0205KkcO1dlkQ2pcUCXzp1RCjVQmoaT5kRrbA"
     echo "msg @JD_ShareCode_Bot /health T0205KkcO1dlkQ2pcUCXzp1RCjVfnoaW5kRrbA"
+    
+    #159****3471 jd_GWFRMdEZPhbJ
+    echo "msg @JD_ShareCode_Bot /bean 66nvo67oyxpydie642pqmgxatrq6x3pygoziyqq"
+    echo "msg @JD_ShareCode_Bot /ddfactory T0205KkcN3lvlymDVXCUzKVwCjVWnYaS5kRrbA"
+    echo "msg @JD_ShareCode_Bot /sgmh T0205KkcN3lvlymDVXCUzKVwCjVQmoaT5kRrbA"
+    echo "msg @JD_ShareCode_Bot /health T0205KkcN3lvlymDVXCUzKVwCjVfnoaW5kRrbA"
+    
     echo "safe_quit"
 ) | docker exec -i telegram-cli telegram-cli -N
